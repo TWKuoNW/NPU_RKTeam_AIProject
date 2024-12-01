@@ -5,7 +5,7 @@ if __name__ == '__main__':
     
     multiprocessing.freeze_support()
 
-    model = YOLO('yolov8n.pt')
+    model = YOLO('models\yolov8n.pt')
 
     results = model.train(
         data='D:\智慧養殖專題\Code\AI\yaml\data.yaml', # 指定訓練資料集
