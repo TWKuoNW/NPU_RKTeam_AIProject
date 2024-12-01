@@ -1,0 +1,13 @@
+train: D:\智慧養殖專題\Code\AI\datasets\train\images
+val: D:\智慧養殖專題\Code\AI\datasets\valid\images
+test: D:\智慧養殖專題\Code\AI\datasets\test\images
+
+nc: 1
+names: ['shrimp']
+
+roboflow:
+  workspace: ktteam
+  project: shrimp-9iyvd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ktteam/shrimp-9iyvd/dataset/1
